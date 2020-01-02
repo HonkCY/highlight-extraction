@@ -6,3 +6,6 @@ ex: `python app.py 360p.mp4 720p.mp4 highlight.mp4 180`
 low resolution is for model, because model will resize the resolution to 320x180, so lower resolution is desirable
 
 high resolution is for the final video, we reassemble the highlight from the high resolution one
+
+# demo
+[![Demo Video](https://img.youtube.com/vi/X5EXB_CAjZE/0.jpg)](https://www.youtube.com/watch?v=X5EXB_CAjZE)

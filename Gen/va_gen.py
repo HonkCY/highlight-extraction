@@ -36,7 +36,7 @@ def read_frames(filename,reflex=False):
     frame_buf = []
     video = cv2.VideoCapture(filename)
     framerate = float(video.get(cv2.CAP_PROP_FPS))
-    skip_rate = floor(framerate/6)
+    skip_rate = floor(framerate/6 +0.01)
     ret, frame = video.read()
     count = 0
     while ret:
